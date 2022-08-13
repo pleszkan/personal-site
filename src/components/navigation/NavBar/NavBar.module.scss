@@ -2,10 +2,15 @@
     .navbar {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         background-color: var(--background-color);
 
         .left {
             align-self: flex-start;
+
+            .logo {
+                display: inline-block;
+            }
         }
 
         .right {

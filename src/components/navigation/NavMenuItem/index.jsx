@@ -1,3 +1,3 @@
-import NavMenuItem from "./NavMenuItem";
+import NavMenuItem from './NavMenuItem'
 
-export { NavMenuItem };
+export { NavMenuItem }
