@@ -1,3 +1,15 @@
+# Runs the deploy-to-prod workflow
+#
+# The workflow needs the following secrets to be set:
+# - DEPLOY_PATH
+# - DEPLOY_HOST
+# - DEPLOY_PORT
+# - DEPLOY_USER
+# - DEPLOY_KEY
+#
+# The workflow will sync the built files to the production server when
+# the build and tests are successful.
+
 name: Deploy frontend bundle to production
 on:
   push:
@@ -29,7 +41,7 @@ jobs:
       - name: rsync deployments
         uses: burnett01/rsync-deployments@5.2.1
         with:
-          switches: -avzr --delete
+          switches: -avzr --delete # -a archive, -v verbose, -z compress, -r recurse, --delete delete files that are not present in the source
           path: build/
           remote_path: ${{ secrets.DEPLOY_PATH }}
           remote_host: ${{ secrets.DEPLOY_HOST }}
