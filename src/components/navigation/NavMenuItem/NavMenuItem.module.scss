@@ -1,5 +1,12 @@
 :local {
-    .navMenuItem {
-        display: inline-block;
-    }
+  .navMenuItem {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .navMenuItem:hover {
+    color: var(--call-to-action-color);
+  }
 }
