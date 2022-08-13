@@ -1,0 +1,15 @@
+:local {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        background-color: var(--background-color);
+
+        .left {
+            align-self: flex-start;
+        }
+
+        .right {
+            align-self: flex-end;
+        }
+    }
+}

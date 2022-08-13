@@ -1,13 +1,10 @@
-import React from 'react';
-import './App.css';
-import Navbar from './components/Navbar';
-import Jumbotron from './components/Jumbotron';
+import styles from 'App.module.scss';
+import NavBar from 'components/navigation/NavBar';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Jumbotron />
+    <div className={styles.app}>
+      <NavBar/>
     </div>
   );
 }

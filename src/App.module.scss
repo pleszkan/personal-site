@@ -1,0 +1,14 @@
+:root,
+:root.light {
+    --background-color: #fff;
+    --primary-color: #00083D;
+    --call-to-action-color: #3379E2;
+    --secondary-color: #646464;
+}
+
+
+:local {
+    .app {
+        background-color: black;;
+    }
+}
