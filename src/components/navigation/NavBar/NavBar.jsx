@@ -7,7 +7,7 @@ export default function NavBar() {
     <div className={styles.navbar}>
       <div className={styles.innerContainer}>
         <div className={styles.left}>
-          <Logo></Logo>
+          <Logo />
         </div>
 
         <div className={styles.right}>
