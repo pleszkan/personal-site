@@ -3,7 +3,6 @@
     height: 64px;
     display: flex;
     justify-content: center;
-    padding: 0 20px;
     background-color: var(--background-color);
     backdrop-filter: blur(10px);
 
@@ -14,6 +13,7 @@
     .innerContainer {
       width: 100%;
       height: 100%;
+      padding: 0 20px;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -30,6 +30,15 @@
 
       .right {
         align-self: flex-end;
+
+        .hamburger {
+          cursor: pointer;
+          width: 35px;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
       }
     }
   }

@@ -1,14 +1,17 @@
-:root,
-:root.light {
+@import '../node_modules/modern-normalize/modern-normalize.css';
+
+:root {
   --background-color: #fff;
   --primary-color: #00083d;
-  --call-to-action-color: #3379e2;
+  --call-to-action-color: #0062ff;
   --secondary-color: #646464;
+}
+
+[data-theme='dark'] {
 }
 
 :local {
   .app {
-    width: 100vw;
     height: 100vh;
     background-color: var(--background-color);
   }
