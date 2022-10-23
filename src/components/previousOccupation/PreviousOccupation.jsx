@@ -1,5 +1,3 @@
-import { AnimationOnScroll } from 'react-animation-on-scroll'
-
 import OccupationCard from 'components/previousOccupation/OccupationCard/OccupationCard'
 import styles from './style.module.scss'
 import classNames from 'classnames'

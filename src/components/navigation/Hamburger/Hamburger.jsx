@@ -1,4 +1,3 @@
-import { NavMenuItem } from 'components/navigation/NavMenuItem'
 import { elastic as Menu } from 'react-burger-menu'
 
 export default function Hamburger({ isOpen, setIsOpen }) {
