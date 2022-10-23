@@ -1,4 +1,4 @@
-import { elastic as Menu } from 'react-burger-menu'
+import { slide as Menu } from 'react-burger-menu'
 
 export default function Hamburger({ isOpen, setIsOpen }) {
   var styles = {
